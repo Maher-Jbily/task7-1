@@ -87,25 +87,25 @@ let biology = parseInt(prompt("Enter marks for Biology: "));
 let mathematics = parseInt(prompt("Enter marks for Mathematics: "));
 let computer = parseInt(prompt("Enter marks for Computer: "));
 
-let totalMarks = physics + chemistry + biology + mathematics + computer;
-let percentage = (totalMarks / (5 * 100)) * 100;
+let totalMarks1 = physics + chemistry + biology + mathematics + computer;
+let percentage1 = (totalMarks1 / (5 * 100)) * 100;
 let grade;
 if (percentage >= 90) {
   grade = 'A';
-} else if (percentage >= 80) {
+} else if (percentage1 >= 80) {
   grade = 'B';
-} else if (percentage >= 70) {
+} else if (percentage1 >= 70) {
   grade = 'C';
-} else if (percentage >= 60) {
+} else if (percentage1 >= 60) {
   grade = 'D';
-} else if (percentage >= 40) {
+} else if (percentage1 >= 40) {
   grade = 'E';
 } else {
   grade = 'F';
 }
 
-console.log("Total Marks: " + totalMarks);
-console.log("Percentage: " + percentage.toFixed(2) + '%');
+console.log("Total Marks: " + totalMarks1);
+console.log("Percentage: " + percentage1.toFixed(2) + '%');
 console.log("Grade: " + grade);
 
 //  ملاحظة نستطيع الاستفادة من السؤال  5 السابق في لحل السؤال 6
